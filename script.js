@@ -2,7 +2,7 @@ var first_num = +prompt('Введите число - которое быдем �
 var second_num = +prompt('Введите степень, в которую будем возводить число:');
 var def = 1;
 
-for (i = second_num; i; i--) {
+for (var i = second_num; i; i--) {
     def *= first_num;
 }
 
